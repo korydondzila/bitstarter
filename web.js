@@ -2,7 +2,7 @@ var express = require('express');
 
 var app = express.createServer(express.logger());
 
-var buffer = new Buffer(fs.readFileSync('~/bitstarter/index.html'));
+var buffer = new Buffer(fs.readFileSync('index.html'));
 
 var text = buffer.toString();
 
